@@ -10,8 +10,8 @@ https://github.com/jackc/tern - for database migrations
 
 Highly Recommended:
 
-https://direnv.net/ - Manage environment variables
-https://github.com/asdf-vm/asdf - Version management for Ruby and Node
+https://direnv.net/ - Manage environment variables<br/>
+https://github.com/asdf-vm/asdf - Version management for Ruby and Node<br/>
 https://github.com/jackc/react2fs - Restart server when files change
 
 Create database and user.
@@ -22,6 +22,10 @@ createuser booklog
 ```
 
 Make a copy of all files that end in `.example` but without the `.example` and edit the new files as needed to configure development environment.
+
+```
+$ find . -name *.example
+```
 
 ```
 npm install
